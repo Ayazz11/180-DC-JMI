@@ -1,8 +1,13 @@
-*,body{
-  margin: 0;
-  padding: 0;
+html,body {
+
+  margin:0;
+  padding:0;
+  overflow-x:hidden ;
   font-family: 'Montserrat', sans-serif;
+      background-color: #E0FAB5;
 }
+
+
 
 ul{
   list-style: none;
@@ -31,13 +36,15 @@ padding: 20px 35px 8px 35px;
 
 #navbar ul{
   display: flex;
-  margin: 7px 55px 0px 0px;
+  justify-content: end;
+  margin: 10px 0px 0px 0px;
+  width: 548px;
   padding: 11px;
 
 }
 
 #navbar ul li{
-  margin: 0px 21px;
+  margin: 0px 11px;
 }
 
 #navbar ul li a{
@@ -72,8 +79,6 @@ padding: 20px 35px 8px 35px;
   bottom: 177px;
   height: 168px;
 
-
-
 }
 .box{
   width: 205px;
@@ -84,6 +89,7 @@ padding: 20px 35px 8px 35px;
 }
 .box ul{
   margin-top: 20px;
+  padding: 0px;
 }
 .box ul li{
   margin-top: 7px;
@@ -99,10 +105,5 @@ padding: 20px 35px 8px 35px;
   height: 355px;
   background: #414042;
 }
-#c-3{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #E0FAB5;
-}
+
 

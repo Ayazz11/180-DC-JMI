@@ -7,8 +7,8 @@ function App(){
     return (
         <div>
        <Top/>
-       <Footer/>
        <Blog/>
+       <Footer/>
         </div>
     )
 

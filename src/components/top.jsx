@@ -5,7 +5,7 @@ import Nav from './navbar';
 function Top(){
     const bg={
         backgroundImage :`url(${require("../images/bg-1.png")})`,
-        backgroundSize:`1250px 600px`,
+        backgroundSize:`100% 650px`,
         backgroundRepeat : `no-repeat`
     }
 return (
