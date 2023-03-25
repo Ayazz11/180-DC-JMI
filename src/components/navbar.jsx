@@ -5,20 +5,24 @@ function Nav(){
         <nav id="navbar" >        
    <ul>
     <li>
-        <a href="">About Us</a>
+        <a href="">Home</a>
     </li>
     <li>
-        <a href="">Blog</a>
+        <a href="">About us</a>
     </li>
     <li>
-        <a href="">Shop</a>
+        <a href="">Featured</a>
     </li>
     <li>
-        <a href="">The Team</a>
+        <a href="">Our Services</a>
     </li>
     <li>
-        <a href="">Contact us </a>
+        <a href="">Gallery</a>
     </li>
+    <li>
+        <a href="">Our Achievements</a>
+    </li>
+
    </ul>
     </nav>
 
