@@ -1,5 +1,5 @@
 import React from 'react';
-import  Logo from './Logo.png';
+// import  Logo from '../Logo.png';
 
 const Aboutus = () => {
   return (
@@ -8,7 +8,7 @@ const Aboutus = () => {
       <h1 className='text-6xl font-weight: 800 font-family: avenir'> About us</h1>
     </div>
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-5'>
-        <img className='w-[622px] h-[620px] mx-auto my-4 md:border-r-4 md:border-black col-span-2' src={Logo} alt='/' />
+        {/* <img className='w-[622px] h-[620px] mx-auto my-4 md:border-r-4 md:border-black col-span-2' src={Logo} alt='/' /> */}
         <div className='flex flex-col justify-center col-span-3'>
           
           <p className='text-left pl-[50px]'>
